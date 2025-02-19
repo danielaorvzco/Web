@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+span {
+    color: crimson;
+    font-size: 15px;
+}
+
+h1 {
+    font-size: 34px;
+}
+
+div {
+    font-size: 15px;
+    font-weight: bold;
+}
+
+div a{
+    color: rgb(182, 180, 180);
+    font-style: normal;
+    text-decoration: none;
+}
+
+img {
+    width: 100%;
+}
+
+.subrayado {
+    display: inline-block;
+    border-bottom: 5px solid crimson;
+}
+
+p {
+    font-size: 17px;
+}
+
+.mi-texto a{
+    color: black;
+    text-decoration-color: crimson;
+}
+
+.mi-texto1 {
+    color: black;
+    text-decoration-color: crimson;
+}
+
+.texto-cursiva {
+    color: gray;
+    font-style: italic;
+}
+
+.mi-texto2 {
+    color: black;
+    font-weight: bold;
+    text-decoration-color: crimson;
+}
+
+.texto-bold {
+    font-weight: bold;
+}
+
+
