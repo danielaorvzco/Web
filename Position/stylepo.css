@@ -1,0 +1,37 @@
+div {
+    border-radius: 10px;
+    height: 100px;
+    width: 500px;
+}
+
+.green {
+    background-color: greenyellow;
+    width: 100%;
+    position: fixed;
+}
+
+.red {
+    background-color: crimson;
+}
+
+.blue {
+    background-color: royalblue;
+    /*position: relative;*/
+    /*left: 50px;
+    z-index: 1;*/
+    /*top: 50%;
+    left: 50%;
+    text-align: center;
+    transform: translate(-50%, -50%);*/
+    /*position: relative;
+    top: -20px;
+    left: 100px;*/
+}
+
+.yellow {
+    background-color: yellow;
+    position: sticky;
+    top: 0;
+    /*position: relative;
+    z-index: 5;*/
+}

@@ -1,0 +1,47 @@
+
+
+p {
+    color: blue;
+    padding: 15px;
+}
+
+section p { /*Herencia dentro de otros selectores*/
+    color: red /*!important;  sobreescribir en estilos*/
+}
+
+section > p { /*Herencia directa*/
+    color: green;
+}
+
+input[type="submit"]{
+    border: none;
+    background-color: rgb(173, 143, 191);
+    padding:  20px 50px 20px 50px;
+    /*TOP - RIGHT - BOTTOM - LEFT*/
+    /*padding: 20px 50px;  Controla las bases y los lados*/
+    /*padding: 50px; Se aplica a los cuatro lados*/
+}
+
+a:link { /*Aspecto general del link*/
+    color: pink;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a:hover { /*Aspecto cuando se pasa el cursor sobre el link*/
+    color: violet;
+}
+
+a:focus { /*Aspecto cuando se usa el tabulador*/
+    border: solid 10px lightpink;
+}
+
+a:active { /*Aspecto cuando se mantiene sostenido*/
+    border: none;
+    color: orange;
+}
+
+a:visited { /*Aspceto despues de visita*/
+    color: gray;
+}
