@@ -59,6 +59,10 @@ div {
     border-top-left-radius: 50px;
     border-top-right-radius: 50px;
     background-color: #D27857;
+    border-style: solid;
+    border-bottom: transparent;
+    border-color: #AB5A32;
+    border-width: 5px;
     position: absolute;
     bottom: 0%;
     right: 37%;
