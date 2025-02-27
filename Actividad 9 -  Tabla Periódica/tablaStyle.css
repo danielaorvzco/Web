@@ -1,0 +1,96 @@
+h1 {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(65, 62, 98);
+}
+
+table {
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: transparent;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.tabla2 {
+    margin:  0 auto;
+    font-size: small;
+    text-align: left;
+    margin: 0;
+}
+
+td {
+    margin: 0;
+    padding: 10px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 7pt;
+    margin: 0%;
+    padding: 0%;
+}
+
+.num {
+    font-size: 20pts;
+    text-align: right;
+    padding: 0;
+    margin: 0;
+    position: relative;
+    top: -5px;
+    right: -7px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+
+}
+
+a:hover {
+    color: white;
+    opacity: 50%;
+}
+
+.blanco {
+    color: white;
+}
+
+.NMetalesReactivos {
+    background-color: rgb(158, 200, 124);
+}
+
+.Alcalinos {
+    background-color: rgb(209, 31, 45);
+}
+
+.Alcalinoterreos {
+    background-color: rgb(245, 166, 31);
+}
+
+.Transicionales {
+    background-color: rgb(136, 167, 198);
+}
+
+.Lantanidos {
+    background-color: rgb(38, 150, 210);
+}
+
+.Actonoides {
+    background-color: rgb(118, 200, 169);
+}
+
+.GNobles {
+    background-color: rgb(230, 167, 189);
+}
+
+.Metaloides {
+    background-color: rgb(242, 185, 15);
+}
+
+.Post {
+    background-color: rgb(184, 149, 197);
+}
+
+.Desconocidos {
+    background-color: rgb(195, 195, 195);
+}
