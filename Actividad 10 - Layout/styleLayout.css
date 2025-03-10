@@ -133,10 +133,16 @@ hr {
     padding-left: 8px;
 }
 
+.noticiaPri {
+    position: absolute;
+    top: 0px;
+    height: 100%;
+}
+
 .noticia1 {
     width: 63%;
     margin-left: 1%;
-    position: absolute;
+    position: relative;
     top: 100px;
     left: 15%;
 }
@@ -144,8 +150,8 @@ hr {
 .noticia2 {
     width: 63%;
     margin-left: 1%;
-    position: absolute;
-    top: 375px;
+    position: relative;
+    top: 110px;
     left: 15%;
 }
 
