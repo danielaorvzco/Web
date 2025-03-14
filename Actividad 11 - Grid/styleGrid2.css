@@ -1,0 +1,124 @@
+.encabezado {
+    background-color: rgb(228, 238, 244);
+    width: 700px;
+    height: 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.circuloRojo {
+    background-color: rgb(321, 53, 85);
+    width: 8px;
+    height: 8px;
+    border-radius: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.circuloAma {
+    background-color: rgb(254, 203, 47);
+    width: 8px;
+    height: 8px;
+    border-radius: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.circuloVerde {
+    background-color: rgb(67, 173, 64);
+    width: 8px;
+    height: 8px;
+    border-radius: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+.container {
+    width: 700px;
+    height: 400px;
+    margin: 0 auto;
+    /* outline: 4px solid;
+    outline-width: 1px; */
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+}
+
+.morado {
+    background-color: rgb(141, 67, 180);
+    grid-column: 6/12;
+    grid-row: 1/7;
+    margin-top: 4px;
+    margin-bottom: 4px;
+    margin-right: 4px;
+}
+
+.rojo {
+    background-color: rgb(232, 78, 52);
+    grid-column: 1/6;
+    grid-row: 1/15;
+    margin: 4px;
+}
+
+.verde1 {
+    background-color: rgb(42, 166, 80);
+    grid-column: 12/13;
+    grid-row: 1/15;
+    margin-top: 4px;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+.verde2 {
+    background-color: rgb(42, 166, 80);
+    grid-column: 6/8;
+    grid-row: 7/12;
+    margin-right: 4px;
+    margin-bottom: 4px;
+}
+
+.azul {
+    background-color: rgb(66, 166, 236);
+    grid-column: 8/12;
+    grid-row: 7/9;
+    margin-bottom: 4px;
+    margin-right: 8px;
+}
+
+.violeta {
+    background-color: rgb(172, 133, 180);
+    grid-column: 8/12;
+    grid-row: 9/12;
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+
+.amarillo {
+    background-color: rgb(248, 153, 41);
+    grid-column: 6/12;
+    grid-row: 12/15;
+    margin-right: 8px;
+    margin-bottom: 4px;
+}
+
+.links {
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+a {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+
+.blanco {
+    color: white;
+}
