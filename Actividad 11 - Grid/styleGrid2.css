@@ -1,6 +1,6 @@
 .encabezado {
     background-color: rgb(228, 238, 244);
-    width: 700px;
+    width: 900px;
     height: 15px;
     margin: 0 auto;
     display: flex;
@@ -37,11 +37,9 @@
 }
 
 .container {
-    width: 700px;
-    height: 400px;
+    width: 900px;
+    height: 500px;
     margin: 0 auto;
-    /* outline: 4px solid;
-    outline-width: 1px; */
     display: grid;
     grid-template-columns: repeat(12, 1fr);
     grid-template-rows: repeat(14, 1fr);
@@ -105,7 +103,7 @@
 }
 
 .links {
-    width: 500px;
+    width: 900px;
     margin: 0 auto;
     display: flex;
     flex-direction: row;
@@ -117,6 +115,13 @@
 a {
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14px;
+    text-decoration: transparent;
+    color: black;
+}
+
+a:hover {
+    color: gray;
+    opacity: 90%;
 }
 
 .blanco {
